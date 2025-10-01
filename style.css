@@ -98,6 +98,7 @@ span {
     margin: 0 auto;
     text-align: center;
     position: relative;
+    padding: 0 10px;
 }
 
 .video {
@@ -110,7 +111,61 @@ span {
     top: 0;
 }
 
+.descricao-video {
+    margin-top: 16px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    padding: 20px 20px;
+    margin-bottom: 16px;
+    margin-block-end: 16px;
+}
+
+.container-caixas-informativas {
+    padding: 0 20px;    
+}
+
+.caixa-informativa {
+    background-color: #3b3b3b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.titulo-caixa-informativa {
+    font-weight: bolder;
+    font-size: 23.04px;
+    color: orange;
+    margin-block-end: 16px;
+    margin-bottom: 16px;
+}
+
+.texto-caixa-informativa {
+    font-size: 19.02px;
+    margin-block-end: 16px;
+    margin-bottom: 16px;
+}
+
+.itens-caixa-informativa {
+    font-size: 19.02px;
+    padding-left: 40px;
+}
+
+.formulario {
+    margin: 10px 0;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;;
+    padding: 6px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: white;
+    text-decoration: none;
+}
+
 footer {
+    margin-top: 30px;
     background-color: #282b2e;
     border-top: 1px solid;
     padding: 10px 0;
