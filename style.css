@@ -98,3 +98,15 @@ span {
     left: 1;
     top: 0;
 }
+
+footer {
+    background-color: #282b2e;
+    border-top: 1px solid;
+    padding: 10px 0;
+}
+
+.texto-rodape {
+    padding: 0 15px;
+    margin: 0 71.5px;
+    color: #6c757d;
+}
