@@ -59,6 +59,41 @@ body {
     color: #FFFFFF;
 }
 
+.cbl-menu-mobile {
+  display: none;
+}
+
+@media (max-width: 749px) {
+  .cbl-menu {
+    display: none;
+  }
+
+  .cbl-menu-mobile {
+    display: block;
+    width: 30%;
+    max-width: 250px;
+    background-color: #1B3C53;
+    color: white;
+    font-size: 16px;
+    font-family: "Saira", sans-serif;
+    border: 1px solid #E0B079;
+    border-radius: 6px;
+    padding: 6px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .cbl-menu-mobile option {
+    background-color: #1B3C53;
+    color: white;
+  }
+
+  .cbl-menu-mobile:focus {
+    border-color: #dba466;
+    box-shadow: 0 0 4px #dba466;
+  }
+}
+
 .apresentacao {
     display: flex;
     flex-wrap: wrap;
