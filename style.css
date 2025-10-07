@@ -72,6 +72,18 @@ body {
     display: none;
   }
 
+ .caixa-informativa-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B3C53;
+    padding: 15px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+ }
+
   .formulario {
     display: none;
   }
